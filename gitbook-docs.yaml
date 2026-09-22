@@ -1,0 +1,90 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: 班级编程共学手册
+  structure:
+    - type: section
+      key: section-start-here
+      title: 开始这里
+      path: start-here
+      default: true
+      children:
+        - type: space
+          key: space-start-here
+          title: 开始这里
+          path: overview
+          default: true
+          content:
+            directory: ./docs/01-开始这里
+    - type: section
+      key: section-programming-languages
+      title: 编程语言
+      path: programming-languages
+      children:
+        - type: space
+          key: space-python
+          title: Python
+          path: python
+          default: true
+          content:
+            directory: ./docs/02-编程语言/Python
+        - type: space
+          key: space-java
+          title: Java
+          path: java
+          content:
+            directory: ./docs/02-编程语言/Java
+        - type: space
+          key: space-c-cpp
+          title: C 与 C++
+          path: c-cpp
+          content:
+            directory: ./docs/02-编程语言/C与C++
+        - type: space
+          key: space-javascript-typescript
+          title: JavaScript 与 TypeScript
+          path: javascript-typescript
+          content:
+            directory: ./docs/02-编程语言/JavaScript与TypeScript
+        - type: space
+          key: space-web-frontend
+          title: Web 前端
+          path: web-frontend
+          content:
+            directory: ./docs/02-编程语言/Web前端
+    - type: section
+      key: section-tools-practice
+      title: 工具与实践
+      path: tools-practice
+      children:
+        - type: space
+          key: space-tools-practice
+          title: 工具与实践
+          path: overview
+          default: true
+          content:
+            directory: ./docs/03-工具与实践
+    - type: section
+      key: section-learning-reflections
+      title: 学习心得
+      path: learning-reflections
+      children:
+        - type: space
+          key: space-learning-reflections
+          title: 学习心得
+          path: overview
+          default: true
+          content:
+            directory: ./docs/04-学习心得
+    - type: section
+      key: section-project-showcase
+      title: 项目展示
+      path: project-showcase
+      children:
+        - type: space
+          key: space-project-showcase
+          title: 项目展示
+          path: overview
+          default: true
+          content:
+            directory: ./docs/05-项目展示
