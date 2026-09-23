@@ -5,13 +5,13 @@ site:
   structure:
     - type: section
       key: section-start-here
-      title: 开始这里
+      title: 从这里开始
       path: start-here
       default: true
       children:
         - type: space
           key: space-start-here
-          title: 开始这里
+          title: 从这里开始
           path: overview
           default: true
           content:
