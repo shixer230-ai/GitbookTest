@@ -1,6 +1,6 @@
 # Markdown 速查
 
-```md
+````md
 # 一级标题
 ## 二级标题
 
@@ -12,6 +12,10 @@
 ```python
 print("代码块")
 ```
+具体使用方法请参考https://github.com/shixer230-ai/NoteHere
+````
 
 [链接文字](https://example.com)
+```
+
 ```
