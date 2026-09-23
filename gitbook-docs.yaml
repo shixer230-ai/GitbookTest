@@ -15,7 +15,7 @@ site:
           path: overview
           default: true
           content:
-            directory: ./docs/01-开始这里
+            directory: ./docs/01-欢迎!
     - type: section
       key: section-programming-languages
       title: 编程语言
