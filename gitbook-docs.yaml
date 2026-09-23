@@ -25,7 +25,6 @@ site:
           key: space-python
           title: Python
           path: python
-          default: true
           content:
             directory: ./docs/02-编程语言/Python
         - type: space
@@ -38,6 +37,7 @@ site:
           key: space-c-cpp
           title: C 与 C++
           path: c-cpp
+          default: true
           content:
             directory: ./docs/02-编程语言/C与C++
         - type: space
